@@ -13,8 +13,7 @@ public class ArrayWithN {
         int[] arr = new int[n];
         System.out.print("Enter the array with spaces: ");
         for (int i = 0; i<n; i++){
-            int x = a.nextInt();
-            arr[i] = x;
+            arr[i] = a.nextInt();
         }
         System.out.print(Arrays.toString(arr));
     }
